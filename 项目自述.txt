@@ -1,0 +1,9 @@
+先写一个application在manifest中进行配置
+app也就是application中我们要做的事就是检查当前进程是否为主进程
+为主进程我们就去执行方法。初始化黑暗模式和activity回调。方便对activity进行统一管理。
+对sp存储清空进行封装。
+利用application    registerActivityLifecycleCallbacks在自定义的application中添加自定义的ActivityLifecycleCallbacksAdapter对activity进行添加和删除管理
+创建ActivityManager对app activity进行管理
+创建baseactivity来写页面基类  baseActivity中1.返回子类布局   2.对dialogFragment加载框进行封装。
+
+然后进行主界面的构建
