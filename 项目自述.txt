@@ -7,3 +7,7 @@ app也就是application中我们要做的事就是检查当前进程是否为主
 创建baseactivity来写页面基类  baseActivity中1.返回子类布局   2.对dialogFragment加载框进行封装。
 
 然后进行主界面的构建
+
+主界面由flamelayout 和  BottomNavigationView 构成。
+有5个fragment添加进帧布局fl中，并和bottomnavigationview进行绑定。
+先写一个basefragment基类
