@@ -11,3 +11,5 @@ app也就是application中我们要做的事就是检查当前进程是否为主
 主界面由flamelayout 和  BottomNavigationView 构成。
 有5个fragment添加进帧布局fl中，并和bottomnavigationview进行绑定。
 先写一个basefragment基类
+写一个baseVmfragment类来将viewmodel和fragment进行绑定  
+定义一个baseviewmodel类来对方法进行封装

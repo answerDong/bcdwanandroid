@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment
  * email：gaoerdongchuang@163.com
  * description：fragment基类
  */
-class BaseFragment : Fragment(){
+abstract class BaseFragment : Fragment(){
 
     override fun onCreateView(
         inflater: LayoutInflater,
