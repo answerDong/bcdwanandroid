@@ -10,7 +10,7 @@ import androidx.lifecycle.AndroidViewModel
  * email：gaoerdongchuang@163.com
  * description：页面
  */
-class BaseViewModel(application: Application) : AndroidViewModel(application) {
+abstract class BaseViewModel constructor(application: Application) : AndroidViewModel(application) {
 
     override fun onCleared() {
         super.onCleared()
