@@ -40,6 +40,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     //bottomnavigation
     implementation 'com.google.android.material:material:1.1.0'
+<<<<<<< HEAD
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
     //okhttp、retrofit、rxjava
@@ -52,4 +53,13 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+=======
+
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //okhttp提供的请求日志拦截器
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+>>>>>>> f8ab10023e2288b20055fda11a1d47c33dcbdf01
 }
