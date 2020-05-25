@@ -27,14 +27,18 @@
 
         </activity>
         <activity android:name=".easymvvm.TestActivity">
+
+        </activity>
+        <activity android:name=".mvvmdemo.animalsActivity">
+
+        </activity>
+        <activity android:name=".mvvmdemo.view.PaoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 <!--        <activity android:name=".easymvvm.MvvmActivity">-->
-
 <!--        </activity>-->
     </application>
-
 </manifest>

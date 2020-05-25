@@ -9,6 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
  * email：gaoerdongchuang@163.com
  * description：页面
  */
-class CoroutinesActivity :AppCompatActivity,CoroutineScope by MainSc{
-
-}
+//class CoroutinesActivity :AppCompatActivity,CoroutineScope by MainSc{
+//
+//}
